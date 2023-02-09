@@ -1,5 +1,5 @@
 echo "Prepare the enviroment of WOL to support Office 2013..."
-WINEARCH=win32 WINEPREFIX=~/wol/office2013 winetrics win7 
+WINEARCH=win32 WINEPREFIX=~/wol/office2013 winetricks win7 
 WINEARCH=win32 WINEPREFIX=~/wol/office2013 winetricks msxml6 msftedit riched20 riched30 vb6run corefonts
 cp name.txt ~/wol/office2013
 echo "Patching the black screen error..."
